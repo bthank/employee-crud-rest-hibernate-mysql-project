@@ -1,10 +1,11 @@
-package com.binu.springboot.employeecrud.dao;
+package com.binu.springboot.employeecrud.service;
 
 import java.util.List;
 
 import com.binu.springboot.employeecrud.entity.Employee;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
+
 	
 	public List<Employee> findAll();
 	
@@ -16,6 +17,6 @@ public interface EmployeeDAO {
 	
 	public void deleteById(int theId);
 	
-
-
+	
+	
 }
